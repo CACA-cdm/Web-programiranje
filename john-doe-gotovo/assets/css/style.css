@@ -1,0 +1,350 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maxw {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/* glavna sranja */
+body {
+    background-color: #2B2C2C;
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    margin-top: 20px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    height: 92px;
+    align-items: center;
+}
+
+nav {
+    display: inherit;
+    column-gap: 42px;
+}
+
+.proziraca {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+
+    color: #FEB633;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+
+    padding: 15px 70px 15px 70px;
+
+    margin-top: 45px;
+}
+
+.popunjeno {
+    background-color: #FEB633;
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 175% */
+
+    padding: 15px 70px 15px 70px;
+
+    margin-top: 45px;
+}
+
+/* headeri */
+h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px; /* 150% */
+    letter-spacing: 0.72px;
+}
+
+h2 {
+    color: #CCC;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 120% */
+}
+
+h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 105.556% */
+}
+
+h4 {
+    color: #CCC;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+h6 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 214.286% */
+    letter-spacing: 1.05px;
+}
+
+/* tekstovne gluposti */ 
+a {
+    color: white;
+    text-decoration: inherit;
+}
+
+.zuti_hr {
+    width: 100px;
+    height: 4px;
+    background: #FEB633;
+}
+
+p {
+    color: #9F9F9F;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+
+span {
+    color: #FEB633;
+}
+
+/* str 1 */
+.hero-1 {
+    margin-top: 100px;
+}
+
+.hero-1-left {
+    margin-top: 155px;
+    max-width: 405px;
+}
+
+.hero-1-right {
+    max-width: 670px;
+    margin-left: 95px;
+}
+
+/* str 2 */
+.hero-2 {
+    margin-top: 120px;
+    margin-bottom: 240px;
+    align-content: center !important;
+    justify-content: center !important;
+}
+
+.hero-2-left {
+    margin-right: 132px;
+    margin-left: 20px;
+    margin-top: 120px;
+
+}
+
+.hero-2-right {
+    max-width: 600px;
+}
+
+/* str 3 */
+.hero-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+
+.hero-3-text {
+    text-align: center;
+}
+
+.hero-3-divs {
+    margin-top: 105px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.h3-div {
+    width: auto;
+    height: 315px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 60px 80px 64px 80px;
+}
+.h3-div>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+#h3-d-1 { background-color: #24b2fe83; }
+#h3-d-2 { background-color: rgba(254, 187, 36, 0.5); }
+#h3-d-3 { background-color: rgba(214, 54, 208, 0.5); }
+#h3-d-4 { background-color: rgba(2, 204, 71, 0.5); }
+
+/* str 4 */
+.hero-4-head {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.hero-4-left>a {
+    color: #727B86;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+label {
+    color: #777;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+input {
+    height: 60px;
+    background-color: #363737;
+}
+
+#name {
+    width: 100%;
+}
+
+.ona_2_davla {
+    display: flex;
+    gap: 30px;
+}
+
+.ona_2_davla input {
+    width: 50%;
+}
+
+input[type=submit] {
+    width: 192px;
+    height: 60px;
+
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+    background: #FEB633;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px; /* 107.143% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+input::placeholder {
+    color: #777;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+textarea::placeholder {
+    color: #777;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+textarea {
+    width: 770px;
+    height: 235px;
+    background: #363737;
+}
+
+/* str 5 */
+.hero-5 {
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 350px;
+    margin-bottom: 395;
+}
