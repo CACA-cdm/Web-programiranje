@@ -20,7 +20,6 @@
     padding-right: 135px;
 }
 
-/* glavna sranja */
 body {
     background-color: #2B2C2C;
     font-family: Poppins, sans-serif;
@@ -28,7 +27,6 @@ body {
 
 header {
     margin-top: 20px;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     height: 92px;
     align-items: center;
 }
@@ -72,7 +70,6 @@ nav {
     margin-top: 45px;
 }
 
-/* headeri */
 h1 {
     color: #FFF;
     font-family: Poppins;
@@ -90,7 +87,7 @@ h2 {
     font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 54px; /* 120% */
+    line-height: 54px; 
 }
 
 h3 {
@@ -99,7 +96,7 @@ h3 {
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    line-height: 38px; /* 105.556% */
+    line-height: 38px;
 }
 
 h4 {
@@ -123,11 +120,10 @@ h6 {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px; /* 214.286% */
+    line-height: 30px; 
     letter-spacing: 1.05px;
 }
 
-/* tekstovne gluposti */ 
 a {
     color: white;
     text-decoration: inherit;
@@ -145,14 +141,12 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
 }
 
 span {
     color: #FEB633;
 }
-
-/* str 1 */
 .hero-1 {
     margin-top: 100px;
 }
@@ -167,7 +161,6 @@ span {
     margin-left: 95px;
 }
 
-/* str 2 */
 .hero-2 {
     margin-top: 120px;
     margin-bottom: 240px;
@@ -186,7 +179,6 @@ span {
     max-width: 600px;
 }
 
-/* str 3 */
 .hero-3 {
     margin-left: 15px;
     margin-right: 15px;
@@ -218,7 +210,7 @@ span {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px; 
 }
 
 #h3-d-1 { background-color: #24b2fe83; }
@@ -226,7 +218,6 @@ span {
 #h3-d-3 { background-color: rgba(214, 54, 208, 0.5); }
 #h3-d-4 { background-color: rgba(2, 204, 71, 0.5); }
 
-/* str 4 */
 .hero-4-head {
     text-align: center;
     margin-top: 120px;
@@ -270,16 +261,6 @@ input {
 #name {
     width: 100%;
 }
-
-.ona_2_davla {
-    display: flex;
-    gap: 30px;
-}
-
-.ona_2_davla input {
-    width: 50%;
-}
-
 input[type=submit] {
     width: 192px;
     height: 60px;
@@ -293,7 +274,7 @@ input[type=submit] {
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    line-height: 15px; /* 107.143% */
+    line-height: 15px;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: auto;
@@ -338,7 +319,6 @@ textarea {
     background: #363737;
 }
 
-/* str 5 */
 .hero-5 {
     height: 660px;
     display: flex;
